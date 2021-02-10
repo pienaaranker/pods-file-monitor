@@ -16,5 +16,5 @@ run the fswatchmonitor.sh script
 
 `./fswatchmonitor.sh`
 
-Every time a file is changes in the `{top_level_project_dir}/Pods/` directory it will search for that file in `{top_level_project_dir}/../` recursively, matching the Pod name as the source directory and replacing the file that changed.
+Every time a file is changed in the `{top_level_project_dir}/Pods/` directory it will search for that file in `{top_level_project_dir}/../` recursively, matching the Pod name as the source directory and replacing the file that changed.
 

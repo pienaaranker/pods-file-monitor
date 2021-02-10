@@ -1,4 +1,4 @@
-#!/bin/shs
+#!/bin/sh
 updated_file=$@
 dir_components=($(echo $updated_file | tr "/" "\n"))
 
